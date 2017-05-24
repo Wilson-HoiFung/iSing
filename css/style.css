@@ -1,0 +1,509 @@
+body {
+  background: radial-gradient(#E89306 50%, #FF8106 100%);
+  background-size: cover;
+}
+
+.welcome {
+  color: #FFFFFF;
+  font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+  text-align: center;
+  font-size: 30px;
+  margin-top: 15%
+}
+
+.logo {
+  width: 100px
+}
+
+.form {
+  padding-bottom: 10%;
+  margin: 5%;
+  text-align: center;
+}
+
+.form input {
+  font-family: "Arial";
+  outline: 0;
+  background: #F2F2F2;
+  width: 100%;
+  border: 0;
+  margin: 0 0 15px;
+  padding: 10px;
+  box-sizing: border-box;
+  font-size: 16px;
+}
+
+.btn-login {
+  font-family: "Arial";
+  background: #CCCCCC;
+  color: #2C2C2C;
+  width: 100%;
+  padding: 10px;
+  font-size: 18px;
+}
+
+.btn-login:hover {
+  background: #FFC285;
+  color: #2C2C2C
+}
+
+.btn-login:active {
+	position: relative;
+	top: 2px;
+}
+
+.message {
+  margin: 15px 0 0;
+  color: #FFFFFF;
+  font-size: 15px;
+}
+
+.message a {
+  text-decoration: none;
+}
+
+.header {
+  background: #FF8106;
+  color: #FFFFFF;
+  font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+  font-size: 20px;
+  text-align: center;
+  position: fixed;
+  height: 40px;
+  margin: 0 auto;
+  width: 100%;
+  padding-top: 5px
+}
+
+.body {
+  font-family: 'Arial';
+  font-size: 15px;
+  color: grey;
+  position: absolute;
+  z-index: -1;
+  padding-top: 40px;
+  padding-bottom: 45px
+}
+
+.footer {
+  background:#F2F2F2;
+  position: fixed;
+  bottom: 0;
+  margin: 0 auto;
+  padding: 5px 0px;
+  width: 100%;
+  text-align: center
+}
+
+.user {
+  padding: 2%;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.btn-logout {
+   background: #FFA852;
+   color: #FFFFFF;
+   cursor: pointer;
+}
+
+.btn-logout:hover {
+   background: #CCCCCC;
+   color: #FFFFFF;
+}
+
+.numbers {
+  text-align: center;
+  color: grey;
+  margin: auto;
+}
+
+.follower {
+  padding: 0px 23px;
+  border-right: 1px solid #ddd;
+  margin: 0 auto
+}
+
+.follower:nth-child(3) {
+    border-right: none;
+}
+
+.david {
+  width: 160px;
+}
+
+.cover {
+  width: 70px;
+}
+
+.play {
+  position: absolute;
+  right: 6%;
+  width: 30px;
+}
+
+.post {
+  background: #CCCCCC;
+  color: grey;
+  font-size: 14px;
+  margin: 8px -15px;
+  padding: 5px 6%;
+}
+
+.tracka {
+  background: #FFFFFF;
+  margin-top: 3px;
+}
+
+.trackb,.trackc,.trackd {
+  background: #FFFFFF;
+  margin-top: 5px;
+}
+
+#caption {
+  width: 65%;
+  height: 0px;
+  padding: 2px 12px;
+}
+
+#igL {
+  background: #F2F2F2;
+  width: 90%;
+  border: 0;
+  margin: 10px auto;
+  box-sizing: border-box;
+}
+
+.input-group input {
+  font-size: 14px;
+}
+
+button {
+  cursor: pointer;
+}
+
+.search {
+  height: 20px;
+}
+
+.menu {
+  background: #DDDDDD;
+  color: grey;
+  font-size: 16px;
+  padding: 8px;
+  margin: 10px -15px 10px -15px;
+}
+
+.region,.gender {
+  text-align: center;
+  width: 33%;
+}
+
+#clicked {
+  color: #FFA852;
+  font-weight: bold;
+  margin-bottom: -8px;
+  border-bottom: 3px solid #FFA852
+}
+
+.menu a {
+  color: grey;
+  text-decoration: none
+}
+
+.menu a:hover {
+  color: #000000
+}
+
+.singers {
+  margin: 15px auto 15px;
+  text-align: center;
+}
+
+#hk_female {
+  margin: 2px 1px;
+  width: 30%
+}
+
+.name {
+  color: grey;
+  width: 99%;
+  margin: 0 auto;
+}
+
+.name p {
+  text-align: center;
+  width: 33%;
+}
+
+.title {
+  margin: 15px;
+  text-align: center;
+  color: grey
+}
+
+h1 {
+  color: #000000;
+  font-size: 17px;
+  font-weight: bold
+}
+
+h2 {
+  color: grey;
+  font-size: 14px
+}
+
+.lyrics {
+  background: #CCCCCC;
+  color: black;
+  text-align: center;
+  font-size: 14px;
+  padding: 8px;
+  margin-left: -15px;
+  margin-right: -15px;
+}
+
+h3 {
+  background: #FFA852;
+  color: #FFFFFF;
+  font-size: 16px;
+  padding: 3px;
+  margin-bottom: 15px;
+}
+
+.music-player--progressR {
+  padding-top: 20px;
+  padding-bottom: 20px;
+  margin: auto;
+}
+
+.progress--progress-barR {
+  width: 80%;
+  margin: auto;
+  left: 0;
+  -webkit-appearance: none;
+  height: 3px;
+  z-index:2
+}
+
+.progress--progress-barR::-webkit-progress-bar {
+  height: 5px;
+  background: #CCCCCC;
+ }
+
+.progress--progress-barR::-webkit-progress-value {
+  background: #FFA852;
+ }
+
+.progress--time_startR {
+  color: grey;
+  font-size: 14px;
+}
+
+.progress--time_endR {
+  color: grey;
+  font-size: 14px;
+}
+
+.control {
+  width: 60%;
+  margin: 0 auto 15px;
+}
+
+.button {
+  margin: auto
+}
+
+.icon {
+  height: 35px;
+  filter: opacity(60%)
+}
+
+.userT {
+  margin: 5px auto;
+  margin-bottom: 0;
+  width: 330px
+}
+
+.chow {
+  width: 50px;
+}
+
+.nameT {
+  width: 195px;
+  padding: 15px 2px;
+  padding-bottom: 0
+}
+
+.nameT a {
+  text-decoration: none
+}
+
+.thick {
+  color: #000000;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+.date {
+  padding: 15px 0px;
+  padding-bottom: 0
+}
+
+.content {
+  margin: 0 auto;
+  text-align: center;
+}
+
+.track {
+  max-width: 333px;
+  margin: 0px -15px;
+}
+
+.pause {
+  height: 15px;
+}
+
+.music-player--progressT {
+  width: 333px;
+  padding: 6px 0px;
+  margin: auto;
+}
+
+.progress--progress-barT {
+  width: 250px;
+  margin: auto;
+  -webkit-appearance: none;
+  height: 3px;
+  z-index: 2
+}
+
+.progress--progress-barT::-webkit-progress-bar {
+  height: 4px;
+  background: #CCCCCC;
+ }
+
+.progress--progress-barT::-webkit-progress-value {
+  background: #FFA852;
+ }
+
+.progress--timeT {
+  color: grey;
+  margin: auto;
+  font-size: 12px;
+  float: right;
+}
+
+.response {
+   margin: 10px auto;
+   margin: ;
+   width: 333px;
+}
+
+.response p {
+  margin: 3px;
+  width: 275px;
+}
+
+.like {
+  height: 20px;
+  filter: brightness(3) grayscale(1);
+}
+
+.animate_heart {
+  filter: none;
+  transition: all 0.5s ease;
+}
+
+.hidden {
+  display: none;
+}
+
+.animate_shown{
+  display: inline;
+}
+
+.animate_hidden{
+  display: none;
+}
+
+.dropbtn {
+  background: none;
+  border: none;
+}
+
+.more {
+  height: 20px;
+  filter: brightness(2)
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  right: 0;
+  background-color: #f9f9f9;
+  width: 60px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  color: black;
+  font-size: 10px;
+  padding: 6px 6px;
+  text-decoration: none;
+  display: block;
+}
+
+.dropdown-content a:hover {
+  background-color: #CCCCCC
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+.comments {
+  margin: 0 auto;
+  width: 333px;
+}
+
+.say {
+  padding-left: 10px
+}
+
+#igT {
+  background: #F2F2F2;
+  width: 333px;
+  border: 0;
+  margin: 0px auto 15px;
+  box-sizing: border-box;
+}
+
+.input-group input {
+  font-size: 14px;
+}
+
+button {
+  cursor: pointer;
+}
+
+.ok {
+  height: 15px;
+  filter: brightness(3)
+}
+
+.pages {
+  height: 35px;
+  padding: 0px 3%;
+  border-right: 1px solid #ddd;
+}
+
+.footer a:hover {
+	position:relative;
+	bottom:3px;
+}
+
+#profile {
+  border-right: none;
+}
